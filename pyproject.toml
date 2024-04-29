@@ -40,17 +40,17 @@ dev-flake8 = [
   "pydoclint == 0.4.1",
   "pydocstyle == 6.3.0",
 ]
-dev-formatting = ["black == 24.4.0", "isort == 5.13.2"]
+dev-formatting = ["black == 24.4.2", "isort == 5.13.2"]
 dev-mkdocs = [
   "mike == 1.1.2",
   "mkdocs-gen-files == 0.5.0",
   "mkdocs-literate-nav == 0.6.1",
-  "mkdocs-material == 9.5.18",
-  "mkdocstrings[python] == 0.24.3",
+  "mkdocs-material == 9.5.19",
+  "mkdocstrings[python] == 0.25.0",
   "frequenz-repo-config[api] == 0.9.1",
 ]
 dev-mypy = [
-  "mypy == 1.9.0",
+  "mypy == 1.10.0",
   "grpc-stubs == 1.53.0.5",
   # For checking the noxfile, docs/ script, and tests
   "frequenz-api-common[dev-mkdocs,dev-noxfile,dev-pytest]",
@@ -62,7 +62,7 @@ dev-pylint = [
   "frequenz-api-common[dev-mkdocs,dev-noxfile,dev-pytest]",
 ]
 dev-pytest = [
-  "pytest == 8.1.1",
+  "pytest == 8.2.0",
   "frequenz-repo-config[extra-lint-examples] == 0.9.1",
 ]
 dev = [
