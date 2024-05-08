@@ -10,7 +10,8 @@
 
 ## New Features
 
-<!-- Here goes the main new features and examples or instructions on how to use them -->
+- A new component category `COMPONENT_CATEGORY_HVAC` has been added to the API
+  to represent HVAC (Heating, Ventilation, and Air Conditioning) systems.
 
 ## Bug Fixes
 
