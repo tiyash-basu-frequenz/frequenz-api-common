@@ -51,9 +51,15 @@ message Microgrid {
 
   // The delivery area where the microgrid is located, as identified by a
   // specific code.
+  //
+  // If a microgrid is not connected to the grid (it is an island) it does not
+  // belong to any delivery area and this field will be missing, but it could
+  // be missing for other reasons as well.
   frequenz.api.common.v1.grid.DeliveryArea delivery_area = 4;
 
   // Physical location of the microgrid, in geographical co-ordinates.
+  //
+  // If the location is not known, this field will be missing.
   frequenz.api.common.v1.Location location = 5;
 
   // The current status of the microgrid.
