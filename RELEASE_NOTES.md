@@ -2,9 +2,12 @@
 
 ## Summary
 
-This release adds a new component category `COMPONENT_CATEGORY_HVAC` to the API.
+Update of the `PaginationParams` struct.
 
-## New Features
+## Upgrading
+
+- `PaginationParams` has been changed so that the `page_size` and `page_token`
+  fields are now mutually exclusive.
 
 - A new component category `COMPONENT_CATEGORY_HVAC` has been added to the API
   to represent HVAC (Heating, Ventilation, and Air Conditioning) systems.
