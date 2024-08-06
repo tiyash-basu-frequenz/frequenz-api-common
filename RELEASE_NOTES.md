@@ -8,3 +8,5 @@ This release adds a new component category `COMPONENT_CATEGORY_HVAC` to the API.
 
 - A new component category `COMPONENT_CATEGORY_HVAC` has been added to the API
   to represent HVAC (Heating, Ventilation, and Air Conditioning) systems.
+
+- Additional information for energy metric
