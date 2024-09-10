@@ -2,9 +2,16 @@
 
 ## Summary
 
-This release adds a new component category `COMPONENT_CATEGORY_HVAC` to the API.
+<!-- Here goes a general summary of what this release is about -->
+
+## Upgrading
+
+<!-- Here goes notes on how to upgrade from previous versions, including deprecations and what they should be replaced with -->
 
 ## New Features
 
-- A new component category `COMPONENT_CATEGORY_HVAC` has been added to the API
-  to represent HVAC (Heating, Ventilation, and Air Conditioning) systems.
+<!-- Here goes the main new features and examples or instructions on how to use them -->
+
+## Bug Fixes
+
+<!-- Here goes notable bug fixes that are worth a special mention or explanation -->
