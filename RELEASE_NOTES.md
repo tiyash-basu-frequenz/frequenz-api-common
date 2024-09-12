@@ -1,7 +1,5 @@
 # Frequenz Common API Release Notes
 
-## Summary
-
 Update of the `PaginationParams` struct.
 
 ## Upgrading
@@ -13,3 +11,7 @@ Update of the `PaginationParams` struct.
   to represent HVAC (Heating, Ventilation, and Air Conditioning) systems.
 
 - Additional information for energy metric
+
+## Bug Fixes
+
+- Fix a dependency issue by pinning the `grpcio` version and related libraries.
