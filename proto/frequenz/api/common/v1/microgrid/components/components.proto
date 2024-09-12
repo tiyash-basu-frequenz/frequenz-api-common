@@ -24,8 +24,7 @@ import "google/protobuf/timestamp.proto";
 
 // Enumrated component categories.
 enum ComponentCategory {
-  // An unknown component categories, useful for error handling, and marking
-  // unknown components in a list of components with otherwise known categories.
+  // The component category is unspecified. This should not be used.
   COMPONENT_CATEGORY_UNSPECIFIED = 0;
 
   // The point where the local microgrid is connected to the grid.

@@ -15,3 +15,4 @@ Update of the `PaginationParams` struct.
 ## Bug Fixes
 
 - Fix a dependency issue by pinning the `grpcio` version and related libraries.
+- Fixed a wrong documentation comment for `COMPONENT_CATEGORY_UNSPECIFIED`.
