@@ -12,6 +12,10 @@ Update of the `PaginationParams` struct.
 
 - Additional information for energy metric
 
+- Generalize Energy message documentation for broader market use
+
+- Add Power message to represent Power in MW
+
 ## Bug Fixes
 
 - Fix a dependency issue by pinning the `grpcio` version and related libraries.
