@@ -63,6 +63,20 @@ message MetricValueVariant {
 }
 
 // List of supported metrics.
+//
+// !!! note
+// AC energy metrics information:
+//
+// * This energy metric is reported directly from the component, and not a
+//  result of aggregations in our systems. If a component does not have this
+//  metric, this field cannot be populated.
+//
+//  * Components that provide energy metrics reset this metric from time to
+//  time. This behaviour is specific to each component model. E.g., some
+//  components reset it on UTC 00:00:00.
+//
+//  * This energy metric does not specify the timestamp since when the energy
+//  was being accumulated, and therefore can be inconsistent.
 enum Metric {
   // Default value.
   METRIC_UNSPECIFIED = 0;
