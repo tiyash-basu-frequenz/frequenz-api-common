@@ -22,6 +22,8 @@
 - Added new message `CommunicationComponentDiagnostic` to represent warnings and errors in microgrid communication components.
 - Added new message `CommunicationComponentStateSnapshot` to represent the state of communication components.
 - Added new message definitions for streaming events (Deleted, Created, Updated)
+- Renamed `ComponentCatgoryMetadataVariant` to `ElectricalComponentCategoryMetadata`.
+- Renamed field `ElectricalComponent.category_type` to `ElectricalComponent.category_metadata` to better reflect its purpose.
 
 ## Bug Fixes
 
